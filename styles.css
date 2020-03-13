@@ -1,0 +1,216 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+/*html{
+    font-family: 'Open Sans', ;
+}*/
+.header-top {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-top .message-logo img {
+  height: 1rem;
+  display: flex;
+}
+.header-top button {
+  color: rgb(247, 129, 149);
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  border: rgb(250, 158, 173) solid 0.05rem;
+  height: 1.5rem;
+  width: 6rem;
+}
+.head-tag {
+  margin: 4rem 2rem;
+  text-align: center;
+}
+.head-tag h1 {
+  margin: 1rem;
+  font-family: "Poppins";
+  line-height: 2rem;
+}
+.head-tag button {
+  color: whitesmoke;
+  margin-top: 5rem;
+  height: 3rem;
+  width: 80%;
+  border: hsl(322, 100%, 66%) 0.5rem solid;
+  border-radius: 2rem;
+  box-shadow: hsl(320, 1%, 59%) 0.2rem 0.2rem 0.5rem;
+  background-color: hsl(322, 100%, 66%);
+}
+.head-tag img {
+  margin-top: 6rem;
+  width: 100%;
+  height: 13rem;
+}
+.icons {
+  margin: 4rem 2rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+.community img {
+  height: 2rem;
+  margin-left: -8rem;
+}
+.community h1 {
+  font-size: 4rem;
+}
+
+.community p {
+  font-size: 1.3rem;
+  color: rgb(150, 150, 150);
+}
+.messages img {
+  height: 2rem;
+  margin-top: 5rem;
+  margin-left: -8rem;
+}
+.messages h1 {
+  font-size: 4rem;
+}
+.messages p {
+  font-size: 1.3rem;
+  color: rgb(150, 150, 150);
+}
+.grow-together {
+  margin: 5rem 2rem;
+  text-align: center;
+}
+.grow-together img {
+  width: 100%;
+  height: 15rem;
+  margin-top: 6rem;
+}
+.grow-together h2 {
+  margin-top: 5rem;
+}
+.grow-together p {
+  margin-top: 2rem;
+}
+.flowing-conversations {
+  margin: 5rem 2rem;
+  text-align: center;
+}
+.flowing-conversations img {
+  width: 100%;
+  height: 15rem;
+  margin-top: 6rem;
+}
+.flowing-conversations h2 {
+  margin-top: 5rem;
+}
+.flowing-conversations p {
+  margin-top: 2rem;
+}
+
+.your-users {
+  margin: 5rem 2rem;
+  text-align: center;
+}
+.your-users img {
+  width: 100%;
+  height: 15rem;
+  margin-top: 6rem;
+}
+.your-users h2 {
+  margin-top: 5rem;
+}
+.your-users p {
+  margin-top: 2rem;
+}
+.button {
+  margin: 15rem 2rem;
+  text-align: center;
+}
+.button button {
+  margin-top: 2rem;
+  color: whitesmoke;
+  background-color: hsl(322, 100%, 66%);
+  height: 3rem;
+  width: 70%;
+  border-radius: 2rem;
+  border: hsl(322, 100%, 66%) 0.1rem solid;
+  box-shadow: hsl(320, 1%, 59%) 0.1rem 0.2rem 0.3rem;
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer-top {
+  margin-top: -1rem;
+  color: whitesmoke;
+
+  padding: 2rem 2rem;
+  text-align: start;
+}
+.footer-top h1 {
+  margin: 1rem 0rem;
+}
+.footer-top p {
+  line-height: 1.5rem;
+}
+.footer-top input {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: hsl(192, 100%, 9%) 0.1rem solid;
+}
+.footer-top button {
+  float: right;
+  color: whitesmoke;
+  background-color: hsl(322, 100%, 66%);
+  height: 3rem;
+  width: 50%;
+  border: hsl(322, 100%, 66%) 0.1rem solid;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}
+.footer-bottom {
+  color: whitesmoke;
+  margin: 8rem 2rem;
+}
+.footer-img img {
+  height: 2rem;
+}
+.footer-img span {
+  font-size: 3rem;
+}
+
+.footer-bottom p {
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+}
+.phone-icon {
+  display: flex;
+  margin-top: 2rem;
+}
+.phone-icon img {
+  height: 1rem;
+  margin-top: 2rem;
+}
+.phone-icon p {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.email-icon {
+  display: flex;
+}
+.email-icon img {
+  height: 1rem;
+  margin-top: 2rem;
+}
+.email-icon p {
+  margin: 1.5rem;
+  margin-left: 1rem;
+}
+.fontawesome {
+  background-color: black;
+}
