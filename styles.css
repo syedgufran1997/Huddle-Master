@@ -3,10 +3,14 @@
   margin: 0px;
   box-sizing: 0px;
 }
-/*html{
-    font-family: 'Open Sans', ;
-}*/
+/*  body    font-family: 'Open Sans', sans-serif; */
+/* heading   font-family: 'Poppins', sans-serif; */
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
 .header-top {
+  margin-top: 0.5rem;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -24,26 +28,40 @@
   width: 6rem;
 }
 .head-tag {
-  margin: 4rem 2rem;
+  margin: 5rem 2rem;
   text-align: center;
+  margin-top: 7rem;
 }
 .head-tag h1 {
+  font-family: "Poppins", sans-serif;
   margin: 1rem;
   font-family: "Poppins";
   line-height: 2rem;
+  color:  hsl(192, 100%, 9%);
+}
+.head-tag p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  max-width: 100%;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  color:  hsl(192, 100%, 9%);
 }
 .head-tag button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   color: whitesmoke;
-  margin-top: 5rem;
-  height: 3rem;
-  width: 80%;
+  margin-top: 3rem;
+  height: 2.5rem;
+  width: 70%;
   border: hsl(322, 100%, 66%) 0.5rem solid;
   border-radius: 2rem;
   box-shadow: hsl(320, 1%, 59%) 0.2rem 0.2rem 0.5rem;
   background-color: hsl(322, 100%, 66%);
 }
 .head-tag img {
-  margin-top: 6rem;
+  margin-top: 7rem;
   width: 100%;
   height: 13rem;
 }
@@ -51,12 +69,14 @@
   margin: 4rem 2rem;
   text-align: center;
   margin-top: 5rem;
+  color:   hsl(192, 100%, 9%)
 }
 .community img {
   height: 2rem;
   margin-left: -8rem;
 }
 .community h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 4rem;
 }
 
@@ -70,29 +90,33 @@
   margin-left: -8rem;
 }
 .messages h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 4rem;
 }
 .messages p {
   font-size: 1.3rem;
   color: rgb(150, 150, 150);
 }
+.top-mobile1{
+  margin-bottom: -0.5rem;
+}
 .grow-together {
-  margin: 5rem 2rem;
   text-align: center;
+  background-color: hsl(207, 100%, 98%);
 }
 .grow-together img {
   width: 100%;
   height: 15rem;
-  margin-top: 6rem;
 }
 .grow-together h2 {
+  font-family: "Poppins", sans-serif;
   margin-top: 5rem;
 }
 .grow-together p {
   margin-top: 2rem;
 }
 .flowing-conversations {
-  margin: 5rem 2rem;
+  margin: 5rem 0rem;
   text-align: center;
 }
 .flowing-conversations img {
@@ -101,15 +125,19 @@
   margin-top: 6rem;
 }
 .flowing-conversations h2 {
+  font-family: "Poppins", sans-serif;
   margin-top: 5rem;
 }
 .flowing-conversations p {
   margin-top: 2rem;
 }
 
+.top-mobile2{
+  margin-bottom: -0.5rem;
+}
 .your-users {
-  margin: 5rem 2rem;
   text-align: center;
+  background-color: hsl(207, 100%, 98%);
 }
 .your-users img {
   width: 100%;
@@ -117,9 +145,11 @@
   margin-top: 6rem;
 }
 .your-users h2 {
+  font-family: "Poppins", sans-serif;
   margin-top: 5rem;
 }
 .your-users p {
+  font-family: "Open Sans", sans-serif;
   margin-top: 2rem;
 }
 .button {
@@ -127,6 +157,8 @@
   text-align: center;
 }
 .button button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   margin-top: 2rem;
   color: whitesmoke;
   background-color: hsl(322, 100%, 66%);
@@ -139,16 +171,17 @@
 
 .footer {
   background-color: hsl(192, 100%, 9%);
+  max-width: 100vh;
 }
 
 .footer-top {
   margin-top: -1rem;
   color: whitesmoke;
-
   padding: 2rem 2rem;
   text-align: start;
 }
 .footer-top h1 {
+  font-family: "Poppins", sans-serif;
   margin: 1rem 0rem;
 }
 .footer-top p {
@@ -163,6 +196,8 @@
   border: hsl(192, 100%, 9%) 0.1rem solid;
 }
 .footer-top button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   float: right;
   color: whitesmoke;
   background-color: hsl(322, 100%, 66%);
@@ -174,10 +209,13 @@
 }
 .footer-bottom {
   color: whitesmoke;
-  margin: 8rem 2rem;
+  margin-top: 8rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .footer-img img {
   height: 2rem;
+  color: white;
 }
 .footer-img span {
   font-size: 3rem;
@@ -211,6 +249,104 @@
   margin: 1.5rem;
   margin-left: 1rem;
 }
-.fontawesome {
-  background-color: black;
+.font-icons {
+  padding: 2rem 0rem;
+}
+.font-icons i {
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+}
+
+/*MEDIA QUERIES for desktop 1440px */
+@media (min-width: 376px) {
+  .header-top {
+    margin: 3rem;
+  }
+  .header-top .message-logo img {
+    height: 2.5rem;
+    width: 15rem;
+  }
+  .header-top button {
+    height: 3rem;
+    width: 10rem; 
+    border-radius: 2rem;
+    font-size: medium;
+}
+
+.head-tag h1 {
+ font-size: 3rem;
+  line-height: 2rem;
+ margin-top: 12rem;
+}
+
+.head-tag p {
+  font-size: 1.4rem;
+  text-align: center;
+  width: 53%;
+  margin-left: 20rem;
+}
+.head-tag button{
+  height: 4.5rem;
+  width: 32%;
+  font-size: larger;
+  border-radius: 4rem;
+  float: center;
+}
+.head-tag img{
+  margin-top:8rem ;
+  width: 70%;
+  height: 40rem;
+}
+.icons{
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+
+}
+.community img{
+  margin-left: -18rem;
+ height: 3rem;
+}
+.community h1{
+  font-size: 8rem;
+}
+.community p{
+  font-size: 2rem;
+} 
+.messages{
+  margin-top: -5rem;
+}
+.messages h1{
+  font-size: 8rem;
+}
+.messages p{
+  font-size: 2rem;
+}
+.messages img{
+  height: 3rem;
+  margin-left: -18rem;
+}
+.grow-together img{
+  display: none;
+}
+.grow-together{
+  background-image: url("/images/bg-section-top-desktop-1.svg");
+}
+/*
+
+.grow-together {
+  margin: 5rem 2rem;
+  text-align: center;
+}
+.grow-together img {
+  width: 100%;
+  height: 15rem;
+  margin-top: 6rem;
+}
+.grow-together h2 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5rem;
+}
+.grow-together p {
+  margin-top: 2rem;
 }
