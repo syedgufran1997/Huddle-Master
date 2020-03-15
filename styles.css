@@ -97,8 +97,9 @@ html {
   font-size: 1.3rem;
   color: rgb(150, 150, 150);
 }
-.top-mobile1{
+.top-mobile1 img{
   margin-bottom: -0.5rem;
+  width:100%;
 }
 .grow-together {
   text-align: center;
@@ -114,6 +115,10 @@ html {
 }
 .grow-together p {
   margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+.bottom-mobile1 img{
+  width:100%;
 }
 .flowing-conversations {
   margin: 5rem 0rem;
@@ -130,10 +135,12 @@ html {
 }
 .flowing-conversations p {
   margin-top: 2rem;
+  padding: 0rem 2rem;
 }
 
-.top-mobile2{
+.top-mobile2 img{
   margin-bottom: -0.5rem;
+  width:100%;
 }
 .your-users {
   text-align: center;
@@ -151,6 +158,10 @@ html {
 .your-users p {
   font-family: "Open Sans", sans-serif;
   margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+.bottom-mobile2 img{
+  width:100%;
 }
 .button {
   margin: 15rem 2rem;
@@ -168,10 +179,12 @@ html {
   border: hsl(322, 100%, 66%) 0.1rem solid;
   box-shadow: hsl(320, 1%, 59%) 0.1rem 0.2rem 0.3rem;
 }
-
+.footer-image img{
+  width:100%;
+}
 .footer {
   background-color: hsl(192, 100%, 9%);
-  max-width: 100vh;
+  width: 100%;
 }
 
 .footer-top {
