@@ -25,7 +25,7 @@ html {
   background-color: white;
   border-radius: 1rem;
   border: rgb(250, 158, 173) solid 0.05rem;
-  height: 1.5rem;
+  height: 1.3rem;
   width: 6rem;
 }
 .head-tag {
@@ -42,7 +42,7 @@ html {
 }
 .head-tag p {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   max-width: 100%;
   font-size: 0.9rem;
@@ -77,12 +77,13 @@ html {
   margin-left: -8rem;
 }
 .community h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
 }
 
 .community p {
-  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
   color: rgb(150, 150, 150);
 }
 .messages img {
@@ -91,14 +92,16 @@ html {
   margin-left: -8rem;
 }
 .messages h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
 }
 .messages p {
-  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
   color: rgb(150, 150, 150);
 }
 .top-mobile1 img {
+  height: 5rem;
   margin-bottom: -0.5rem;
   width: 100%;
 }
@@ -106,11 +109,13 @@ html {
   display: none;
 }
 .grow-together {
+  height: 45rem;
   text-align: center;
   background-color: hsl(207, 100%, 98%);
 }
 .grow-together img {
-  width: 100%;
+  padding-top: 6rem;
+  width: 80%;
   height: 15rem;
 }
 .grow-together h2 {
@@ -119,8 +124,10 @@ html {
   color: hsl(192, 100%, 9%);
 }
 .grow-together p {
-  margin-top: 2rem;
-  padding: 0rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  width: 80%;
+  font-size: 0.9rem;
+  padding: 2rem 2rem;
   color: hsl(192, 100%, 9%);
 }
 .bottom-mobile1 img {
@@ -134,7 +141,7 @@ html {
   text-align: center;
 }
 .flowing-conversations img {
-  width: 100%;
+  width: 80%;
   height: 15rem;
   margin-top: 6rem;
 }
@@ -144,6 +151,8 @@ html {
   color: hsl(192, 100%, 9%);
 }
 .flowing-conversations p {
+  font-family: "Open Sans", sans-serif;
+
   margin-top: 2rem;
   padding: 0rem 2rem;
   color: hsl(192, 100%, 9%);
@@ -157,11 +166,12 @@ html {
   display: none;
 }
 .your-users {
+  height: 40rem;
   text-align: center;
   background-color: hsl(207, 100%, 98%);
 }
 .your-users img {
-  width: 100%;
+  width: 80%;
   height: 15rem;
   margin-top: 6rem;
 }
